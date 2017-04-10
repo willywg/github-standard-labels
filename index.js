@@ -2,24 +2,23 @@ var mapLimit = require('map-limit')
 var request = require('request')
 
 var colors = {
-  'duplicate': 'ededed',
-  'greenkeeper': 'ededed',
-  'starter': 'ffc0cb',
-  'Priority: Critical': 'ee0701',
-  'Priority: High': 'd93f0b',
-  'Priority: Low': '0e8a16',
+  'Priority: Low': '009800',
   'Priority: Medium': 'fbca04',
+  'Priority: High': 'eb6420',
+  'Priority: Critical': 'e11d21',
   'Status: Abandoned': '000000',
-  'Status: Available': 'c2e0c6',
-  'Status: Blocked': 'ee0701',
+  'Status: Accepted': '009800',
+  'Status: Available': 'bfe5bf',
+  'Status: Blocked': 'e11d21',
+  'Status: Completed': '006b75',
   'Status: In Progress': 'cccccc',
-  'Status: On Hold': 'e99695',
-  'Status: Proposal': 'd4c5f9',
+  'Status: On Hold': 'e11d21',
+  'Status: Pending': 'fef2c0',
   'Status: Review Needed': 'fbca04',
-  'Type: Bug': 'ee0701',
-  'Type: Documentation': '5319e7',
-  'Type: Enhancement': '1d76db',
+  'Status: Revision Needed': 'e11d21',
+  'Type: Bug': 'e11d21',
   'Type: Maintenance': 'fbca04',
+  'Type: Enhancement': '84b6eb',
   'Type: Question': 'cc317c'
 }
 
